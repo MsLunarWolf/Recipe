@@ -1,0 +1,65 @@
+img {
+  border-radius: 50%;
+  box-shadow: 3px 3px 4px #000;
+  height: 250px;
+  width: 380px;
+  vertical-align: left;
+}
+  img:hover{
+    transform: rotateY(180deg);
+    box-shadow: 0px 4px 3px 3px #123;
+}
+ 
+.prep:hover{
+  color: red;
+}
+
+
+body {
+    background-image: url("http://10steps.sg/wp-content/uploads//2012/11/White-christmas-light-background.jpg");
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+
+p::first-letter{
+  background-color: #666;
+  color: #FFF;
+  font-size: 24px;
+  font-style:italic;
+  padding: 0 4px;
+  border-radius: 3px;
+  margin-right: 2px;
+  font-family: Cursive;
+}
+
+.complete{
+  text-decoration:line-through
+}
+
+h1:hover{
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h1{
+  font-size: 50px;
+  font-family: Cursive;
+}
+
+h3{
+  font-family: Cursive;
+  font-size: 25px;
+}
+
+p:hover, li:hover{
+    background-color: #ffff99;
+}
+
+.cen{
+  text-align: center;
+}
